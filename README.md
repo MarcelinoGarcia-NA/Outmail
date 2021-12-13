@@ -5,8 +5,9 @@
 #Node.js https://nodejs.org/en/download/
 
 
-#############################EXECUTANDO A API(back_end)###################################################
+###########EXECUTANDO A API(back_end)#############################
 #YARN
+
 Para inicializar o projeto é necessario ter o pacote YARN
 Para instalar ultilize o comando no (prompt comand):
 
@@ -34,7 +35,7 @@ yarn dev
 
 na pasta do back_end existe a pasta src, e dentro o arquivo routes.js nele está presente todas routas para teste no postman ou insomnia
 
-########################################EXECUTANDO CLIENTE(front_end)################################################################
+##############################EXECUTANDO CLIENTE(front_end)#######################################
 
 Para executar cliente abra a pasta front_end e execute o comando cd e o caminho, como no exemplo abaixo:
 
