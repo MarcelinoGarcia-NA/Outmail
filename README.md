@@ -1,4 +1,9 @@
-# Outmail
+# Outmail  Alunos <>Anderson e Marcelino </>
+
+É necessario ter instalado o mongo e node.js para executar a api.
+#Mongodb https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+#Node.js https://nodejs.org/en/download/
+
 
 #############################EXECUTANDO A API(back_end)###################################################
 #YARN
@@ -7,7 +12,7 @@ Para instalar ultilize o comando no (prompt comand):
 
 choco install yarn
 
-Se não tiver o software chocolatey não será possivel instalar o yarn, então se não tiver o chocolatey instale com comando no prompt:
+Se não tiver o software chocolatey não será possivel instalar o yarn, então se não tiver o chocolatey no windows instale com comando no prompt:
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
