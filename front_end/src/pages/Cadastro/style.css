@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+}
+.container-form{
+    width: 35%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.form-cadastro-perfil{
+    margin-top: 100px;
+}
+#logo-login{
+     margin-left: 45%;
+ }
+ #btn-cancelar{
+    float: right;
+    width: 33%;
+    margin: 0 auto;
+}
+#btn-cadastrar{
+    width: 33%;
+    background-color: #8A25B1;
+    margin: 0 auto;
+}
+.cadastro-container-buttons{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100px;
+}
+  
+
+ @media screen and (min-width: 100px) and (max-width: 700px) { 
+    .container-form{
+        width: 75%;
+        background-color: white;
+        margin: 0 auto;
+    }
+    #logo-login{
+        margin-left: 30%;
+    }
+    .form-cadastro-perfil{
+        margin-top: 0px;
+    }
+    #logo-login{
+        margin-left: 30%;
+    }
+    #btn-cancelar{
+        float: right;
+        width: 33%;
+        margin: 0 auto;
+    }
+    #btn-cadastrar{
+        width: 33%;
+        background-color: #8A25B1;
+        margin: 0 auto;
+    }
+    .cadastro-container-buttons{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 100px;
+    }
+ }
+ @media screen and (min-width: 700px) and (max-width: 1300px) { 
+    .container-form{
+        width: 55%;
+        background-color: white;
+        margin: 0 auto;
+    }
+    #logo-login{
+        margin-left: 40%;
+    }
+ }
+ @media screen and (min-width: 1300px) and (max-width: 1600px) { 
+    #logo-login{
+        margin-left: 43%;
+    }
+ }

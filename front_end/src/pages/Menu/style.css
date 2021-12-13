@@ -1,0 +1,87 @@
+.nav-wrapper{
+    background-color:   #f5f5f5;
+}
+#name-login{
+    color: #100dbd;
+}
+.title-submit-messagem{
+    color: #100dbd;
+    width: 33.33%;
+    text-align: center;
+    margin-left: 33.3%;
+    margin-bottom: 30px;
+}
+#btn-escrever,#btn-enviadas,#btn-recebidas{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color:#100dbd;
+}
+.icon_user{
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.outmail{
+    width: 25%;
+    height: 100px;
+    margin-top: 200px;
+    font-size: x-large 25px;
+    color:#100dbd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+    float: left;
+}
+.container-img-aviao{
+    margin-right: 5%;
+    margin-top: 200px;
+    float: right;
+}
+.img-aviao{
+    width: 100%;
+    height: 325px;
+}
+
+#btn-login-menu{
+    background-color: #100dbd;
+}
+#btn-enviar{
+    width: 100%;
+    background-color: #100dbd;
+}
+.cadastro-container-buttons{
+    margin:0 auto;
+    width: 33.3%;
+}
+
+.container-received-message{
+   width: 40%; 
+   margin:0 auto;
+}
+.lista-received{
+    background-color: #f5f5f5;
+}
+.title-received{
+    text-align: left;
+    color: #100dbd;
+    font-size: 30px large;
+}
+.label-received{
+    color: #100dbd;
+}
+.message-received{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.623);
+}
+@media screen and (min-width: 80px) and (max-width: 1200px) { 
+    nav{
+        height: 70px;
+        margin-bottom: 20px;
+    }
+}
+
+
+

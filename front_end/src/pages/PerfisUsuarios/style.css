@@ -1,0 +1,113 @@
+.PerfisUsuarios-container-users{
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    height: 270px;
+    border-radius: 18px;
+    background-color: #f5f5f5;
+    float:left;
+}
+.PerfisUsuarios-container-center-users{
+    margin-left: 17%;
+    width: 70%;
+}
+.PerfisUsuarios-container-perfil-users{
+    width: 15%;
+    font-size: 5px;
+    position: absolute;
+    float: left;
+}
+.PerfisUsuarios-image-perfil-user{
+    height: 200px;
+    border-radius: 18px;
+    width:95%;
+    margin-left: 2.5%;
+    float: left;
+}
+.PerfisUsuarios-image-perfil-user:hover {
+    height: 210px;
+    color: white;
+    border-radius: 18px;
+    width:98%;
+}
+.PerfisUsuarios-container-users:hover{
+    cursor: pointer;
+    background-color: #bfbcc2f8;
+}
+.PerfisUsuarios-container-users:hover .PerfisUsuarios-title{
+    color: white;
+}
+.PerfisUsuarios-container-users:hover .PerfisUsuarios-style-music{
+    color: white;
+
+}
+.PerfisUsuarios-title{
+    cursor: pointer;
+    width: 90%;
+    margin-top: 200px;
+    color: #724bbd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 5%;
+}
+.PerfisUsuarios-style-music{
+    cursor: pointer;
+    width: 90%;
+    margin-top: 10px;
+    color: #724bbd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 5%;
+}
+.PerfisUsuarios-icon-deletar{
+     float: right;
+}
+.PerfisUsuarios-icon-deletar:hover{
+    cursor: pointer;
+}
+.alert-icon{
+   padding-left: 40%;
+}
+
+@media screen and (min-width: 80px) and (max-width: 700px) { 
+    .PerfisUsuarios-container-users{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 300px;
+        border-radius: 18px;
+        background-color: #f5f5f5;
+        float:left;
+    }
+    .PerfisUsuarios-container-center-users{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .PerfisUsuarios-container-perfil-users{
+        width: 100%;
+    }
+    .PerfisUsuarios-title{
+        cursor: pointer;
+        width: 90%;
+        margin-top: 200px;
+        color: #724bbd;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+ 
+}
+@media screen and (min-width: 700px) and (max-width: 1300px) { 
+    .PerfisUsuarios-container-center-users{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .PerfisUsuarios-container-users{
+        width: 60%;
+        height: 300px;
+        margin-left: 10%;
+    }
+    .PerfisUsuarios-container-perfil-users{
+        width: 100%;
+    }
+   
+}

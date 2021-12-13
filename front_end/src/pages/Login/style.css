@@ -1,0 +1,90 @@
+.title-login{
+    width: 33.33%;
+    color: #100dbd;
+    margin-left: 33.33%;
+}
+.login-outmail{
+    width: 20%;
+    background-color:#100dbd; ;
+    text-align: center;
+    color: white;
+}
+.Login-container-user{
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    border: 2px solid #100dbd;
+    height: 460px;
+}
+.row{
+    margin-top: 10px;
+    width: 55%;
+    background-color: white;
+}
+#inputEmail,#inputPassword{
+    width: 100%;
+    margin: 0 auto;
+}
+#btn-login{
+    width: 25%;
+    margin-top: 30px;
+    background-color: #100dbd;
+    margin-left: 37%;
+    margin-bottom: 50px;
+}
+.link-cadastro{
+    margin-left: 15%;
+}
+
+.login-img-aviao{
+    margin-top: 200px;
+    width: 325px;
+    height: 325px;
+}
+@media screen and (min-width: 50px) and (max-width: 700px) {   
+.row{
+    margin-top: 10px;
+    width: 70%;
+    background-color: white;
+}
+#btn-login{
+    width: 40%;
+    margin-top: 30px;
+    background-color: #100dbd;
+    margin-left: 33.3%;
+    margin-bottom: 50px;
+}
+.Login-container-user{
+    width: 100%;
+    margin: 0;
+}
+.title-login{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.login-outmail{
+    width: 100%;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) { 
+    .title-login{
+        width: 33.33%;
+        font-size: 30px;
+        color: #100dbd;
+        margin-left: 33.33%;
+    }
+    .login-outmail{
+        width: 30%;
+    }
+    .login-img-aviao{
+        margin-top: 200px;
+        width: 225px;
+        height: 225px;
+    }
+    #btn-login{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+}
