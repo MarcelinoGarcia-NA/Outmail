@@ -1,4 +1,4 @@
-# Desenvolvimento de Sistemas Distribuídos | Sistemas Distribuidos Alunos <>Anderson e Marcelino </>
+# Desenvolvimento do Outmail | Sistemas Distribuidos
 
 É necessario ter instalado o mongo e node.js para executar a api.
 #Mongodb https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
