@@ -4,6 +4,7 @@
 #Mongodb https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 #Node.js https://nodejs.org/en/download/
 
+![image](https://user-images.githubusercontent.com/64509713/156940646-64ba4929-0f7a-4b65-80ec-582931bcacd9.png)
 
 ###########EXECUTANDO A API(back_end)#############################
 
